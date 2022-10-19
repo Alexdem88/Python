@@ -1,0 +1,8 @@
+n=int(input('введите время в секундах'))
+hour=str(n//3600)
+min=str((n//60)%60)
+sec=str(n%60)
+print(hour+':'+min+':'+sec)
+print(hour, 'часов')
+print(min, 'минут')
+print(sec, 'секунд')
